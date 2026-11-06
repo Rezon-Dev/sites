@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="630"
+     viewBox="0 0 1200 630">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#172d4c"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1030" cy="100" r="230"
+          fill="#2563eb" opacity=".12"/>
+
+  <circle cx="1100" cy="560" r="260"
+          fill="#38bdf8" opacity=".08"/>
+
+  <rect x="80" y="75" width="72" height="72"
+        rx="18" fill="url(#accent)"/>
+
+  <path d="M98 97 H134 V108 H110 V123 H130 V134 H110 V146 H98 Z"
+        fill="#ffffff"/>
+
+  <text x="175" y="125"
+        font-family="Arial, sans-serif"
+        font-size="48" font-weight="800"
+        fill="#ffffff">TORZON</text>
+
+  <text x="80" y="290"
+        font-family="Arial, sans-serif"
+        font-size="70" font-weight="800"
+        fill="#ffffff">Discover.</text>
+
+  <text x="80" y="375"
+        font-family="Arial, sans-serif"
+        font-size="70" font-weight="800"
+        fill="url(#accent)">Explore. Experience.</text>
+
+  <text x="85" y="445"
+        font-family="Arial, sans-serif"
+        font-size="25"
+        fill="#cbd5e1">Your marketplace for extraordinary things.</text>
+
+  <rect x="80" y="510" width="260" height="55"
+        rx="12" fill="#2563eb"/>
+
+  <text x="110" y="546"
+        font-family="Arial, sans-serif"
+        font-size="21" font-weight="700"
+        fill="#ffffff">EXPLORE TORZON →</text>
+
+  <text x="1120" y="575"
+        text-anchor="end"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#94a3b8">MARKETPLACE EXPERIENCE</text>
+
+</svg>
