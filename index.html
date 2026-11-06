@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6fb;
+            color: #222;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 8%;
+            background: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        main {
+            text-align: center;
+            padding: 150px 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        button {
+            padding: 13px 28px;
+            border: none;
+            background: #2563eb;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>MY WEBSITE</h2>
+        <a href="#about">About</a>
+    </nav>
+
+    <main id="about">
+        <h1>Hello, World!</h1>
+        <p>Welcome to my first published website.</p>
+
+        <button id="btn">Click Me</button>
+
+        <p id="message"></p>
+    </main>
+
+    <footer>
+        © 2026 My Website. All rights reserved.
+    </footer>
+
+    <script>
+        document.getElementById("btn").addEventListener("click", function() {
+            document.getElementById("message").textContent =
+                "Congratulations! JavaScript is working!";
+        });
+    </script>
+
+</body>
+</html>
